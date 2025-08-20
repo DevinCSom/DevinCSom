@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devin Som
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Hi, I’m Devin </h1>
+    <p>Cloud Computing Student | IT Major | Project Builder</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a Cloud Computing student at George Mason University passionate about cloud security, automation, and building scalable apps. Outside of tech, I enjoy fitness, music, and traveling.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>🌐 Portfolio Website on AWS</h3>
+      <p>Deployed my personal portfolio using AWS S3 and CloudFront. Learned DNS setup, HTTPS, and static hosting.</p>
+      <a href="#">View Project</a> | <a href="#">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>📦 Mini Dropbox (Cloud File Storage App)</h3>
+      <p>Built a file storage system using AWS S3 with authentication. Practiced IAM roles and secure file handling.</p>
+      <a href="#">View Project</a> | <a href="#">GitHub Repo</a>
+    </div>
+
+    <div class="project">
+      <h3>✅ Serverless To-Do App</h3>
+      <p>Created a to-do list app powered by AWS Lambda + DynamoDB. Learned about serverless architecture and event-driven design.</p>
+      <a href="#">View Project</a> | <a href="#">GitHub Repo</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:devin@example.com">devin@example.com</a></p>
+    <p>🔗 <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a> | <a href="https://linkedin.com/in/YOUR-USERNAME" target="_blank">LinkedIn</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Devin Som | Built with 💻 + ☁️</p>
+  </footer>
+</body>
+</html>
